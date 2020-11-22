@@ -1,9 +1,9 @@
 package vinicius_padilha;
 
-import javax.persistence.Entity;
+import javax.persistence.MappedSuperclass;
 import javax.persistence.OneToOne;
 
-@Entity
+@MappedSuperclass
 public class Equipe {
     private String nomeEquipe;
     private String acronimoEquipe;
